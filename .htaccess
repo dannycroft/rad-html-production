@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+Options +Indexes
+RewriteEngine On 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>
+
+Header unset ETag
+FileETag None
+<FilesMatch "(?i)^.*\.(ico|flv|jpg|jpeg|png|gif|js|css)$">
+Header unset Last-Modified
+Header set Expires "Fri, 21 Dec 2012 00:00:00 GMT"
+Header set Cache-Control "public, no-transform"
+</FilesMatch>
+
+ErrorDocument 404 /404.php
