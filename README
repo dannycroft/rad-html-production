@@ -1,1 +1,13 @@
-Basic XHTML/CSS starting framework for very small projects. 
+Optimised XHTML/CSS starting framework for small projects.
+
+===== Features =====
+
+- Standards Based Semantic XHTML Markup 
+- Cross Browser Support (IE6, IE7, IE8, IE9)
+- Mobile Ready
+- Lightly Configured .htaccess (404 Page & Basic Asset Optimisation)
+- Cross-domain Policy (Security)
+- Graceful Degradation Support (No Javascript Class)
+- jQuery 1.4.2
+- Basic Print & Handheld Styles
+- Eric Myers CSS Reset (Standard issue)
