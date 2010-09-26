@@ -8,6 +8,6 @@ Optimised XHTML/CSS starting framework for small projects.
 - Lightly Configured .htaccess (404 Page & Basic Asset Optimisation)
 - Cross-domain Policy (Security)
 - Graceful Degradation Support (No Javascript Class)
-- jQuery 1.4.2
+- jQuery 1.4.2 (Google CDN)
 - Basic Print & Handheld Styles
 - Eric Myers CSS Reset (Standard issue)
