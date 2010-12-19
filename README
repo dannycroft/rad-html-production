@@ -4,8 +4,8 @@ Optimised XHTML/CSS starting framework for small projects.
 
 - Standards Based Semantic XHTML Markup 
 - Cross Browser Support (IE6, IE7, IE8, IE9)
-- Mobile Ready
-- Lightly Configured .htaccess (404 Page & Basic Asset Optimisation)
+- Mobile Ready (Media Queries only)
+- Configured .htaccess (404 Page & Asset Optimisation)
 - Cross-domain Policy (Security)
 - Graceful Degradation Support (No Javascript Class)
 - jQuery 1.4.2 (Google CDN)
